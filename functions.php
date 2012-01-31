@@ -592,3 +592,14 @@ function twentyeleven_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'twentyeleven_body_classes' );
 
+remove_filter('the_content', 'wpautop');
+
+function my_scripts_method() {
+	wp_enqueue_script('jquery', false, array() , false, false);
+	wp_enqueue_script('jquery-ui-core', false, array() , false, false);
+	wp_enqueue_script('jquery-ui-tabs', false, array() , false, false);
+	wp_register_script('mojo', get_template_directory_uri() . '/js/mojo.js', array('jquery'), false, false);
+	wp_enqueue_script('mojo', false, array(), false, false);
+}
+
+add_action('wp_enqueue_scripts', 'my_scripts_method');
