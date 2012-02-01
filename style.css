@@ -291,7 +291,7 @@ select:focus, textarea:focus {
 
 #access {
 	float: right;
-	margin-top: -7px;
+	margin-top: 14px;
 	text-align: center;
 	width: 598px;
 }
@@ -305,12 +305,12 @@ select:focus, textarea:focus {
 }
 
 #access ul li div {
-	height: 154px;
+	height: 164px;
 	width: 88px;
 }
 
 #access ul li div a {
-	height: 154px;
+	height: 164px;
 	width: 88px;
 }
 
@@ -493,6 +493,10 @@ select:focus, textarea:focus {
 	width: 115px;
 }
 
+.call-to-action-text {
+	display: none;
+}
+
 /* End Widget Pages */
 
 /* Begin Home Page */
@@ -517,7 +521,7 @@ select:focus, textarea:focus {
 /* Begin Contact Page */
 
 .wpcf7 {
-	margin: 0 auto !important;
+	float: left;
 	width: 600px;
 }
 
@@ -556,7 +560,37 @@ select:focus, textarea:focus {
 	width: 575px;
 }
 
+#contact-info {
+	float: right;
+	width: 175px;
+}
+
 /* End Contact Page */
+
+/* Begin Blog */
+
+.blog #primary {
+	margin: 55px 0 55px 75px;
+	overflow: hidden;
+}
+
+.type-post .entry-title {
+	margin-left: 0px;
+}
+
+.type-post .entry-title a {
+	text-decoration: none;
+}
+
+.type-post .comments-link {
+	display: none;
+}
+
+.type-post footer.entry-meta {
+	display: none;
+}
+
+/* End Blog */
 
 /* Begin Main Footer */
 
