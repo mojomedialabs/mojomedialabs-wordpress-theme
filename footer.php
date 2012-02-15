@@ -22,7 +22,7 @@
 		<div id="company-descriptions">
 			<div id="marketing-candy-description">
 				<h1>Marketing Candy</h1>
-				<p>Marketing Candy, a Rose Group Company, is a promotional products and print company in an industry that is technologically in the dark ages, Marketing Candy leverages smart technology along with experience to creatively solve even the toughest promotional challenges:</p>
+				<p><a href="http://marketing-candy.com/">Marketing Candy</a>, a Rose Group Company, is a promotional products and print company in an industry that is technologically in the dark ages, Marketing Candy leverages smart technology along with experience to creatively solve even the toughest promotional challenges:</p>
 				<p style="text-align: center;"><strong><br />Creative Product Concepts + Robust Logistical Solutions + Technology Solutions that make sense<br /><br /></strong></p>
 				<p>We work where creative, logistics and technology intersect to meet our clients’ needs and have an unswerving commitment to getting it right.</p>
 				<p style="text-align: center;"><a href="http://marketing-candy.com/">www.marketing-candy.com</a></p>
@@ -30,8 +30,8 @@
 
 			<div id="return-on-energy-description">
 				<h1>Return On Energy&reg; Inc.</h1>
-				<p>ROE Powers ROI&trade; introduces a game-changing approach to business, Return on Energy&reg;, or ROE&trade;, provides a solution to the number one problem companies struggle with today—getting the right people into the right seats—and takes it one step further: to get those people communicating and thinking the right way. In other words, when the right thinkers are filling the right positions, companies experience an increase in employee productivity and genuine employee engagement, maximizing and organization’s success, or Return on Investment (ROI).</p>
-				<p>Return on Energy&reg; Inc offers consulting and training services designed to create highly effective workplaces, as well CEO and founder, R Michael Rose, also speaks on ROE Powers ROI&trade;.</p>
+				<p><a href="http://roepowersroi.com/">ROE Powers ROI</a>&trade; introduces a game-changing approach to business, <a href="http://returnonenergy.com/">Return on Energy</a>&reg;, or ROE&trade;, provides a solution to the number one problem companies struggle with today—getting the right people into the right seats—and takes it one step further: to get those people communicating and thinking the right way. In other words, when the right thinkers are filling the right positions, companies experience an increase in employee productivity and genuine <a href="http://www.roepowersroi.com/why-does-it-matter/">employee engagement</a>, maximizing and organization’s success, or Return on Investment (ROI).</p>
+				<p>Return on Energy&reg; Inc offers consulting and training services designed to create highly effective workplaces, as well CEO and founder, <a href="http://rmichaelrose.com/">R Michael Rose</a>, also speaks on ROE Powers ROI&trade;.</p>
 				<p style="text-align: center;"><a href="http://returnonenergy.com/">www.returnonenergy.com</a></p>
 			</div>
 		</div>

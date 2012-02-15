@@ -335,27 +335,32 @@ select:focus, textarea:focus {
 }
 
 #access ul li div.dna:hover,
-#access ul li.current-menu-item div.dna {
+#access ul li.current-menu-item div.dna,
+#access ul li.current-page-ancestor div.dna {
 	background: url(images/main-nav-dna-on.png) bottom center no-repeat;
 }
 
 #access ul li div.scientists:hover,
-#access ul li.current-menu-item div.scientists {
+#access ul li.current-menu-item div.scientists,
+#access ul li.current-page-ancestor div.scientists {
 	background: url(images/main-nav-scientists-on.png) bottom center no-repeat;
 }
 
 #access ul li div.cases:hover,
-#access ul li.current-menu-item div.cases {
+#access ul li.current-menu-item div.cases,
+#access ul li.current-page-ancestor div.cases {
 	background: url(images/main-nav-cases-on.png) bottom center no-repeat;
 }
 
 #access ul li div.blog:hover,
-#access ul li.current-menu-item div.blog {
+#access ul li.current-menu-item div.blog,
+#access ul li.current-page-ancestor div.blog {
 	background: url(images/main-nav-blog-on.png) bottom center no-repeat;
 }
 
 #access ul li div.contact:hover,
-#access ul li.current-menu-item div.contact {
+#access ul li.current-menu-item div.contact,
+#access ul li.current-page-ancestor div.contact {
 	background: url(images/main-nav-contact-on.png) bottom center no-repeat;
 }
 
@@ -407,12 +412,19 @@ select:focus, textarea:focus {
 	overflow: hidden;
 }
 
-.entry-title {
+h1.entry-title {
 	color: #666666;
 	font-family: Chalkduster, sans-serif;
-	font-size: 20px;
+	font-size: 27px;
 	font-weight: normal;
 	margin-left: 150px;
+}
+
+h2 {
+	color: #666666;
+	font-family: Chalkduster;
+	font-size: 21px;
+	font-weight: normal;
 }
 
 .subpage-menu {
@@ -497,6 +509,10 @@ select:focus, textarea:focus {
 	display: none;
 }
 
+.call-to-action-text a {
+	color: #ffffff;
+}
+
 /* End Widget Pages */
 
 /* Begin Home Page */
@@ -512,6 +528,14 @@ select:focus, textarea:focus {
 
 /* Begin Cases Pages */
 
+.project {
+	 margin-bottom: 30px;
+}
+
+.project-summary h2 {
+	margin-bottom: 10px;
+}
+
 .project-images {
 	text-align: center;
 }
@@ -520,44 +544,9 @@ select:focus, textarea:focus {
 
 /* Begin Contact Page */
 
-.wpcf7 {
+#contact-form {
 	float: left;
-	width: 600px;
-}
-
-.wpcf7-form {
-	width: 600px;
-}
-
-.contact-form-clear {
-	clear: both;
-	width: 600px;
-}
-
-.contact-form-left {
-	clear: left;
-	float: left;
-	width: 300px;
-}
-
-.contact-form-right {
-	clear: right;
-	float: right;
-	width: 300px;
-}
-
-.contact-form-textarea {
-	clear: both;
-	width: 600px;
-}
-
-.wpcf7-form input[type="file"], .wpcf7-form input[type="password"], .wpcf7-form input[type="text"], .wpcf7-form select {
-	width: 275px;
-}
-
-.wpcf7-form textarea {
-	margin: 5px auto 0 auto;
-	width: 575px;
+	width: 530px;
 }
 
 #contact-info {
